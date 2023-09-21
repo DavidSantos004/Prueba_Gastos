@@ -20,9 +20,8 @@ En la página principal, encontrarás una tabla que muestra todos tus registros 
 Puedes agregar fácilmente nuevos registros haciendo clic en "Agregar Nuevo Registro". Completa los detalles, como descripción, monto y fecha, en el formulario que se abre.
 ### 3. Búsqueda de Registros
 Utiliza la función de búsqueda para encontrar rápidamente registros específicos. Ingresa una palabra clave y la aplicación filtrará los resultados automáticamente.
-### 4. Modificar Registros
-Si necesitas hacer cambios en un registro existente, haz clic en "Editar" junto al registro deseado. Un formulario precargado te permitirá realizar las modificaciones necesarias.
-### 5. Eliminar Registros
+
+### 4. Eliminar Registros
 Si un registro ya no es relevante, puedes eliminarlo con un clic en "Eliminar". La aplicación te pedirá confirmación antes de eliminar permanentemente el registro.
 
 ## Tecnologías Utilizadas
@@ -41,14 +40,9 @@ Si un registro ya no es relevante, puedes eliminarlo con un clic en "Eliminar". 
 ## Instalación y Uso
 Clona este repositorio en tu computadora:
 
-shell
-Copy code
 git clone https://github.com/DavidSantos004/Prueba_Gastos.git
 Abre el archivo index.html en tu navegador web.
 
 ¡Comienza a registrar tus ingresos y egresos!
-
-## Contribuciones
-Este proyecto está en constante evolución, y tus contribuciones son bienvenidas. Si deseas agregar nuevas funciones, mejorar la interfaz de usuario o solucionar problemas, ¡haz un fork del repositorio y envía una solicitud de extracción!
 
 Disfruta explorando y utilizando Mi Gestor de Ingresos y Egresos. ¡Aprovecha esta herramienta para mejorar tu gestión financiera
