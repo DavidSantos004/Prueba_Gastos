@@ -9,7 +9,6 @@ const egreso = document.querySelector(".egreso");
 const total = document.querySelector(".total");
 
 
-
 addEventListener("DOMContentLoaded", async () => {
   let res = await (await fetch(api)).json();
   let totalIngresos = 0;
