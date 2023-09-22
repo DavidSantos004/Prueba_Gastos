@@ -61,7 +61,6 @@ addEventListener("DOMContentLoaded", async () => {
       button.setAttribute("data-edit", id)
     });
   });
-
 });
 
 myfrom.addEventListener("submit", async (e) => {
@@ -81,8 +80,6 @@ myfrom.addEventListener("submit", async (e) => {
   body: JSON.stringify(data),
   }
 
-
-  
   const button = document.querySelector("#calcularr")
   const id = button.dataset.edit
   console.log(id)
@@ -114,8 +111,6 @@ myTabla.addEventListener("click", async (e) => {
       console.error("Error al eliminar el registro:", error);
     }
   }
-
-
 
   button.addEventListener("click", async (e) => {
     e.preventDefault();
