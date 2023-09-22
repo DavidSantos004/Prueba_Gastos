@@ -1,0 +1,15 @@
+form{
+    display: grid;
+    align-content: center;
+    padding-top: 6%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.datos{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
