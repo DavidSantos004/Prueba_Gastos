@@ -1,9 +1,13 @@
+body{
+    display: grid;
+    align-items: baseline;
+    justify-items: center;
+
+}
+
 form{
     display: grid;
-    align-content: center;
     padding-top: 6%;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 .datos{
@@ -13,3 +17,18 @@ form{
     text-align: center;
 }
 
+.form-control{
+width: 330px !important;
+}
+
+.table{
+width: 70% !important;
+}
+
+.datos{
+width: 20%;
+font-size: 20px;
+background-color: whitesmoke;
+border: 2px black solid;
+
+}
