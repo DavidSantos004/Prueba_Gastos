@@ -1,13 +1,14 @@
 const myfrom = document.querySelector("form");
 const myTabla = document.querySelector("#myData");
 const input = document.querySelector(".form-control");
-const button = document.querySelector("#boton_bsuqueda");
+const boton= document.querySelector("#boton_bsuqueda");
 const api = "http://127.0.0.1:5010/tabla";
 const datos = document.querySelector(".datos");
 const ingreso = document.querySelector(".ingreso");
 const egreso = document.querySelector(".egreso");
 const total = document.querySelector(".total");
 const modificar = document.querySelector(".editar");
+const formito = document.querySelector(".formularito")
 
 addEventListener("DOMContentLoaded", async () => {
   let res = await (await fetch(api)).json();
@@ -112,11 +113,15 @@ myTabla.addEventListener("click", async (e) => {
     }
   }
 
-  button.addEventListener("click", async (e) => {
-    e.preventDefault();
+});
+
+//Buscar dato
+formito.addEventListener('submit', async (e) => {
+  e.preventDefault()
     let valor = input.value;
     let res = await (await fetch(api + "/" + valor)).json();
-    if (valor === res.id) {
+    if (Number(valor) === res.id) {
+      console.log("hola")
       myTabla.innerHTML = `
             <tr>
                 <td>${res.id}</td>
@@ -144,4 +149,4 @@ myTabla.addEventListener("click", async (e) => {
       myTabla.innerHTML = "NO SE ENCONTRARON DATOS";
     }
   });
-});
+
