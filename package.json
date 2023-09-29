@@ -1,0 +1,16 @@
+{
+  "name": "prueba_gastos",
+  "version": "1.0.0",
+  "description": "¡Bienvenido a Mi Gestor de Ingresos y Egresos! Este proyecto te permite llevar un registro de tus finanzas personales de manera sencilla. Fue creado utilizando HTML, CSS, y JavaScript, y es perfecto para practicar y mejorar tus habilidades en el desarrollo web.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "json-server --watch DB.json --port 5010 --host 127.0.0.1"
+  },
+  "keywords": [],
+  "author": "DavidSantos004",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "0.17.3"
+  }
+}
