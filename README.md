@@ -37,11 +37,37 @@ Si un registro ya no es relevante, puedes eliminarlo con un clic en "Eliminar". 
 #### Git y GitHub:
  Control de versiones y colaboración en el desarrollo.
 
-## Instalación y Uso
-Clona este repositorio en tu computadora:
+## Imagen
 
-git clone https://github.com/DavidSantos004/Prueba_Gastos.git
-Abre el archivo index.html en tu navegador web.
+![Imagen Proyecto](./screenshot.png)
+
+## Instalación y Uso
+
+### NOTA: Para poder usar el proyecto, debemos instalar lo siguente:
+
+### Descargar node: 
+-version 18.18.0  (https://nodejs.org/en).
+-Ejecutar el archivo descargado.
+
+### Clona este repositorio en tu computadora:
+-git clone https://github.com/DavidSantos004/Prueba_Gastos.git
+-Abre el archivo index.html en tu navegador web.
+
+Abre la terminal y ejecuta el comando 
+
+`npm i`.
+
+Ejecuta en la terminal 
+`npm run dev` 
+con esto arrancamos el servidor.
+
+Abre el archivo `index.html` en tu navegador web para ejecutar la aplicación.
+
+Utiliza el formulario para registrar nuevas transacciones.
+
+Puedes editar o eliminar transacciones existentes utilizando los botones correspondientes.
+
+Utiliza la función de búsqueda para encontrar transacciones por su ID.
 
 ¡Comienza a registrar tus ingresos y egresos!
 
